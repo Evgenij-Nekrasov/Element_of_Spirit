@@ -11,11 +11,6 @@ import {
 } from "../../actions";
 import Spinner from "../spinner/Spinner";
 
-// Задача для этого компонента:
-// Фильтры должны формироваться на основании загруженных данных
-// Фильтры должны отображать только нужных героев при выборе
-// Активный фильтр имеет класс active
-
 const HeroesFilters = () => {
    const { filters, filtersLoadingStatus, activeFilter } = useSelector(
       (state) => state.filters
