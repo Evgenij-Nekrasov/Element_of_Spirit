@@ -8,7 +8,7 @@ import {
    filtersFetched,
    filtersFetchingError,
    activeFilterChanged,
-} from "../../actions";
+} from "../heroesFilters/filtersSlice";
 import Spinner from "../spinner/Spinner";
 
 const HeroesFilters = () => {
@@ -39,7 +39,7 @@ const HeroesFilters = () => {
       }
 
       return arr.map(({ name, className, label }) => {
-         const btnClass = classNames("btn", className, {
+         const btnClass = classNames("btn me-2 mx-auto rounded", className, {
             active: name === activeFilter,
          });
 
