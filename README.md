@@ -30,7 +30,7 @@
 </div>
 
 ## 🎯 Inference demo
-[https://stikhiya.vercel.app/](https://stikhiya.vercel.app/)
+[stikhiya.vercel.app/](https://stikhiya.vercel.app/)
 
 ## 📝 Description
 - The project is a kind of administrative panel, which implements the functionality of the "CRUD" methodology. The application code is divided into logical, that is, business logic, which can be reused, and rendering components that accept props and display the interface
