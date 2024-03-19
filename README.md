@@ -30,7 +30,7 @@
 </div>
 
 ## 🎯 Inference demo
-[stikhiya.vercel.app/](https://stikhiya.vercel.app/)
+![Снимок экрана (626)](https://github.com/Evgenij-Nekrasov/Element_of_Spirit/assets/137310332/636d56a2-e145-4b9b-8678-df0cd7f65670)
 
 ## 📝 Description
 - The project is a kind of administrative panel, which implements the functionality of the "CRUD" methodology. The application code is divided into logical, that is, business logic, which can be reused, and rendering components that accept props and display the interface
